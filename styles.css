@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 
@@ -79,18 +80,17 @@ input[type=checkbox] {
         position: absolute;
         display:none;
         right: 0;
-        left: 55px;
+        left: 15px;
         text-align: center;
     }
-
 
     .menu li:hover {
         display: inline-block;
         transition: 0.3s ease;
     }
-
-    .menu li + li {
-        margin-top: 12px;
+    .menu li {
+        padding: 5px;
+        margin: 5px;
     }
 
     input[type=checkbox]:checked ~ .menu {
@@ -102,10 +102,10 @@ input[type=checkbox] {
     }
 }
 
-.greeting {
+.greeting{
     font-family: 'rethink-sans';
     font-size: 2em;
-    padding-top: 50px;
+    padding-top: 150px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -113,7 +113,23 @@ input[type=checkbox] {
     text-align: center;
 }
 
-.social i {
+i {
     padding: 5px;
-    color: white;
 }
+
+.blob-motion {
+    position: absolute;
+    transform: translateY(-20%);
+    z-index: 0;
+    top: 260px;
+    transform: scale(5);
+  }
+
+  .blob-content {
+    z-index: 1;
+    background: none;
+  }
+
+  p, i, a{
+    background: none;
+  }
