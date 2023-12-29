@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-image: url('stars.jpg');
     color: white;
     overflow: hidden;
 }
@@ -19,6 +19,7 @@
     width: 100px;
     height: 100px;
     z-index: 1;
+    background: none;
 }
 
 #icon g{
