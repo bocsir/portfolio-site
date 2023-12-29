@@ -1,4 +1,4 @@
-Bare portoflio site. Will add projects and info to content site soon.
+Bare portoflio site. Will add projects and info to content page soon.
 <br>
 https://bocsir.github.io/portfolio-site
 <br><br>
